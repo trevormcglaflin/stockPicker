@@ -1,0 +1,53 @@
+body {
+    background-image: url("graphs.jpg");
+    color: white;
+    Font-family: consolas, monaco, monospace;
+}
+
+h1 {
+    text-align: center;
+    background-color: CadetBlue;
+}
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: green;    }
+    49%{    color: green; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: green;    }
+}
+#top-images {
+    width: 98%;
+}
+#bottom-images {
+    width: 98%;
+}
+
+#trump {
+    margin-left: 20px;
+
+}
+#rocket {
+    margin-right: 20px;
+    float: right;
+}
+#wolf {
+    margin-left: 20px;
+}
+#money {
+    margin-right: 20px;
+    float: right;
+}
+
+
+
+main {
+    text-align: center;
+    background: DarkGray;
+    width: 850px;
+    height: 400px;
+    margin: auto;
+}
